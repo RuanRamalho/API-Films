@@ -9,32 +9,32 @@
     font-size: 20px;
     background: #ccc;
     padding: 6px;
-    color: orangered;
+    color: black;
     font-weight: bold;
     border-radius: 10px;
-    border: solid 1px #ccc;
+    
 }
 
 #nameMovie:focus {
-    outline-color: orangered;
+    outline-color: black;
 }
 
 button {
     font-size: 18px;
     font-weight: bold;
-    height: 50px;
+    height: 40px;
     margin-left: 5px;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 6px;
     cursor: pointer;
     transition: all 0.5s;
-    background: coral;
+    background: black;
     color: white;
     border: solid 1px;
 }
 
 button:hover {
-    color: coral;
+    color: black;
     background: white;
 }
 
@@ -43,6 +43,9 @@ article {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 article h2 {
@@ -52,7 +55,6 @@ article h2 {
 article img {
     width: 300px;
     height: 450px;
-    margin-left: 600px; 
 }
 
 article p {
@@ -61,15 +63,16 @@ article p {
 }
 
 #detail {
-    color: black;
-    background: coral;
+    color: white;
+    background: black;
     width: 200px;
-    margin-left: 43%;
     margin-bottom: 10px;
     border-radius: 10px;
+    transition: .5s;
 }
 
 #detail:hover {
-    color: white;
-    background: black;
+    color: black;
+    background: white;  
+    border: 1px black solid
 }
